@@ -23,7 +23,7 @@ function App() {
         </button>
         <h2>Hello there!</h2>
         <h2 style={{background: 'yellow'}}>Hello again! is there any body here?</h2>
-        <p>the new account is:{count}</p>
+        <p style={{background: 'blue',color:'white'}}>the new account is:{count}</p>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
