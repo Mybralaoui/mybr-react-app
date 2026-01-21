@@ -18,11 +18,12 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount((count) => count + 2)}>
           count is {count}
         </button>
         <h2 style={{color: 'green'}}>Hello there!</h2>
         <h2 style={{background: 'yellow'}}>Hello again! is there any body here?</h2>
+        <p style={{background: 'blue',color:'white'}}>the new account is:{count}</p>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
