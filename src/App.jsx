@@ -21,7 +21,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <h2>Hello there!</h2>
+        <h2 style={{color: 'green'}}>Hello there!</h2>
         <h2 style={{background: 'yellow'}}>Hello again! is there any body here?</h2>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
